@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iraj Afshani English To Farsi Translations For Nurse</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      font-weight: bold;
+    }
+      h2 {
+        text-align: center;
+      }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    td {
+      vertical-align: middle;
+    }
+    button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Iraj Afshani English To Farsi Translations For Nurse</h1>
+  <h2>Make sure you turn up your volume so you could hear the translations!</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Word</th>
+        <th>Meaning</th>
+        <th>Audio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dinner</td>
+        <td>Shaam</td>
+        <td><button onclick="playAudio('audio1.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Lunch</td>
+        <td>Naahaar</td>
+        <td><button onclick="playAudio('audio2.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Food</td>
+        <td>Gazaa</td>
+        <td><button onclick="playAudio('audio3.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Get Up</td>
+        <td>Paashou</td>
+        <td><button onclick="playAudio('audio4.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Are You Hungry?</td>
+        <td>Goshnehee?</td>
+        <td><button onclick="playAudio('audio5.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Sit Down</td>
+        <td>Besheen</td>
+        <td><button onclick="playAudio('audio6.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Lay Down / Sleep</td>
+        <td>Bekhab</td>
+        <td><button onclick="playAudio('audio7.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Bathroom</td>
+        <td>Twalet</td>
+        <td><button onclick="playAudio('audio8.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Eat</td>
+        <td>Bokhor</td>
+        <td><button onclick="playAudio('audio9.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Water</td>
+        <td>Aab</td>
+        <td><button onclick="playAudio('audio10.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Thank You</td>
+        <td>Merci</td>
+        <td><button onclick="playAudio('audio11.mp3')">Play</button></td>
+      </tr>
+      <tr>
+        <td>Lets go</td>
+        <td>Berim</td>
+        <td><button onclick="playAudio('audio12.mp3')">Play</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <audio id="audioPlayer" controls style="display: none;"></audio>
+
+  <script>
+    function playAudio(src) {
+      const audioPlayer = document.getElementById('audioPlayer');
+      audioPlayer.src = src;
+      audioPlayer.play();
+    }
+  </script>
+</body>
+</html>
+
+
